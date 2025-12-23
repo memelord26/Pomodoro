@@ -4,7 +4,7 @@ html {
     letter-spacing: 0.8px;
     min-height: 100vh;
     color: #d8e9ef;
-    background-image: linear-gradient(-20deg, #025159 0%, #733b36 100%);
+    background-image: linear-gradient(-20deg, #A27E8E 0%, #AE7D6F 100%);
     background-size: cover;
 }
 
@@ -72,11 +72,11 @@ p {
 }
 
 .circle {
-    border-color: #bf5239;
+    border-color: #643F4B;
 }
 
 .circle-mask {
-    border-color: #e85a71;
+    border-color: #7D4F5D;
 }
 
 .app-counter-box {
