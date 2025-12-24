@@ -7,6 +7,7 @@
             href="https://fonts.googleapis.com/css2?family=EG+Garamond:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css" />
         <title>Pomodoro App</title>
     </head>
@@ -24,7 +25,9 @@
                 <div class="app-counter-box">
                     <p><span class="minutes">25</span>:<span class="seconds">00</span></p>
                 </div>
-                <button class="btn-start">start</button>
+                <button class="btn-start"><i class="fa fa-play fa-2x" aria-hidden="true"></i></button>
+                <!-- <i class="fa fa-pause fa-2x" aria-hidden="true"></i> change to this when play is clicked and vice versa -->
+                <button class="btn-reset"><i class="fa fa-repeat fa-2x" aria-hidden="true"></i></button> <!-- reset the time -->
             </div>
         </div>
     </body>
